@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh_menuItem"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_menuItem"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/networkStream_menuItem"
+        android:title="Network Stream"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/view_menu"
+        android:title="View"
+        app:showAsAction="withText">
+
+        <menu >
+                <item
+                    android:id="@+id/allFolders_menuItem"
+                    android:checkable="true"
+                    android:title="All Folders"
+                    app:showAsAction="withText" />
+
+                <item
+                    android:id="@+id/folders_menuItem"
+                    android:checkable="true"
+                    android:title="Folders"
+                    app:showAsAction="withText" />
+
+                <item
+                    android:id="@+id/files_menuItem"
+                    android:checkable="true"
+                    android:title="Files"
+                    app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/sortBy_menuItem"
+                android:title="Sort by"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/fields_menuItem"
+                android:title="Fields"
+                app:showAsAction="withText" />
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/select_menuItem"
+        android:title="Select"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/settings_menuItem"
+        android:title="Settings"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/help_menu"
+        android:title="Help"
+        app:showAsAction="withText">
+
+        <menu>
+            <item
+                android:id="@+id/whatsNew_menuItem"
+                android:title="What's new"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/features_menuItem"
+                android:title="Features"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/faq_menuItem"
+                android:title="FAQ"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/checkForUpdate_menuItem"
+                android:title="Check for updates"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/bugReport_menuItem"
+                android:title="Bug Report"
+                app:showAsAction="withText" />
+
+            <item
+                android:id="@+id/about_menuItem"
+                android:title="About"
+                app:showAsAction="withText" />
+        </menu>
+
+    </item>
+</menu>
